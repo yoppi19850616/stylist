@@ -1,7 +1,6 @@
 <%= render "shared/header" %>
 <div class='main'>
 
-  <%# 画面上部の「人生を変えるフリマアプリ」帯部分 %>
   <div class='title-contents'>
     <h2 class='service-title'>
       STYLISTS
@@ -13,9 +12,7 @@
       美容師の新しい働き方
     </p>
   </div>
-  <%# /画面上部の「人生を変えるフリマアプリ」帯部分  %>
 
-    <%# 画面中央の「会員数日本一位」帯部分 %>
   <div class='ad-contents'>
     <h2 class='ad-title'>
       多様な働き方を実現したい
@@ -30,9 +27,7 @@
       あなたの人生に合った働き方を見つけてください
     </p>
   </div>
-  <%# /画面中央の「会員数日本一位」帯部分 %>
 
-  <%# FURIMAが選ばれる3つの理由部分 %>
   <div class='select-reason-contents'>
     <h2 class='title'>
       STYLISTSが選ばれる理由
@@ -73,14 +68,11 @@
       </li>
     </ul>
   </div>
-  <%# /FURIMAが選ばれる3つの理由部分 %>
 
-  <%# 商品一覧 %>
   <div class='item-contents'>
     <h2 class='title'>店舗一覧</h2>
     <ul class='item-lists'>
 
-      <%# 商品のインスタンス変数になにか入っている場合、中身のすべてを展開できるようにしましょう %>
       <li class='list'>
         <%= link_to '#' do %>
         <%= image_tag "内装写真1.jpg", class: "item-img" %>
@@ -94,10 +86,7 @@
         </div>
         <% end %>
       </li>
-      <%# //商品のインスタンス変数になにか入っている場合、中身のすべてを展開できるようにしましょう %>
 
-      <%# 商品がない場合は以下のダミー商品が表示されるようにしましょう %>
-      <%# 商品がある場合は表示されないようにしましょう %>
       <li class='list'>
         <%= link_to '#' do %>
         <%= image_tag "内装写真2.jpg", class: "item-img" %>
@@ -111,11 +100,8 @@
         </div>
         <% end %>
       </li>
-      <%# //商品がある場合は表示されないようにしましょう %>
-      <%# //商品がない場合は以下のダミー商品が表示されるようにしましょう %>
     </ul>
   </div>
-  <%# /商品一覧 %>
 </div>
 <%= link_to('#', class: 'purchase-btn') do %>
   <span class='purchase-btn-text'>出品する</span>
