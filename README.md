@@ -1,24 +1,12 @@
-# README
+アプリケーション名：stylist
+アプリケーション概要：美容師が自身の情報を公開する事が可能
+                  利用者が美容師の検索をする事が可能
+URL：
+テスト用アカウント：
+利用方法：新規ユーザーページにおいてログインした後に自身の情報をアップ
+目指した課題解決：様々な理由で退職（結婚、出産等）した美容師が新たにフリーで働ける環境を構築し
+               お客様も美容師を検索しマッチングできるアプリを作成した
+洗い出した要件
+実装した機能についての画像やGIFおよびその説明
+実装予定の機能：ログイン機能、プロフィール情報公開機能
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
